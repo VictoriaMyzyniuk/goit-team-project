@@ -49,3 +49,12 @@ button {
     cursor: pointer;
 }
 
+.button {
+    height: 44px;
+    border-radius: 22px;
+    background-color: var(--primary-white-color);
+
+    @include font-set(null, 700, 1.31);
+    color: var(--dark-pink-color);
+    text-align: center;
+}
