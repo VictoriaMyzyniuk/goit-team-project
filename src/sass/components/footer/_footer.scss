@@ -5,6 +5,7 @@
 
 .footer {
     background-color: var(--howitsmade-bg-color);
+    padding-bottom: 20px;
 }
 
 .footer__button--list {
@@ -72,4 +73,66 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
 }
+
+.footer__cocial--item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+
+    background-color: #FEA5BB;
+    border-radius: 50%;
+}
+
+.footer__cocial--item:not(:last-child) {
+    margin-right: 28px;
+}
+
+.footer__social--list {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.footer__tel {
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 186%;
+    color: var(--primary-black-color);
+}
+
+.footer__tel--number {
+    color: var(--dark-pink-color);
+}
+
+.footer__tel--link {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.footer__container {
+   border-bottom: 1px solid #E1E1E1;
+   margin-bottom: 16px;
+}
+
+.footer__copyright {   
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 152%;
+    text-align: center;
+    color: var(--text-gray-color);
+}
+
+
+
+
 
