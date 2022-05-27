@@ -1,21 +1,20 @@
 :root {
-    --dark-pink-color:#D41443;
-    --light-pink-color: #FFA5BA;
-    --primary-white-color: #ffffff;
-    --product-pink-color: #FFB8CA;
-    --product-creamy-color: #F0D1A5;
-    --product-green-color: #C2E297;
-    --primary-black-color: #000000;
-    --text-gray-color: #907E82;
-    --product-bg-color: #E5E5E5;
-    --howitsmade-bg-color: #FFF5F6;
-    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    --duration: 250ms;
+  --dark-pink-color: #d41443;
+  --light-pink-color: #ffa5ba;
+  --primary-white-color: #ffffff;
+  --product-pink-color: #ffb8ca;
+  --product-creamy-color: #f0d1a5;
+  --mobile-menu-bg-color: #e17992;
+  --mobile-menu-border-color: #e18298;
+  --product-green-color: #c2e297;
+  --primary-black-color: #000000;
+  --text-gray-color: #907e82;
+  --product-bg-color: #e5e5e5;
+  --howitsmade-bg-color: #fff5f6;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 250ms;
 }
 
 $mobile: 320px;
 $tablet: 768px;
 $desktop: 1200px;
-
-
-
