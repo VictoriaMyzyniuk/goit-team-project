@@ -84,6 +84,31 @@
     line-height: 1.5;
     color: var(--text-gray-color);
 }
+.contacts__secondlist {
+    
+}
 .contacts__button {
+    font-weight: 700;
+    line-height: 21px;
+    padding-left: 17px;
+    padding-right: 17px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-white-color);
+    height: 44px;
+    min-width: 161px;
+    background: var(--dark-pink-color);
+    border-radius: 22px;
+}
+.contacts__button--second {
+    color: var(--dark-pink-color);
+    background: var(--primary-white-color);
+}
+.contacts__ikon {
+    margin-left: 8px;
+
+}
+.contacts__seconditem + .contacts__seconditem {
+    margin-top: 10px;
 }

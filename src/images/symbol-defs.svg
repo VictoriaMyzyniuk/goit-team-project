@@ -3,6 +3,9 @@
 <symbol id="icon-btn-arrow" viewBox="0 0 19 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M3.2 3.2l11.552 12.8-11.552 12.8"></path>
 </symbol>
+<symbol id="icon-Vector-1" viewBox="0 0 22 32">
+<path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M4.544 3.2l13.702 12.8-13.702 12.8"></path>
+</symbol>
 <symbol id="icon-burger-menu" viewBox="0 0 46 32">
 <path fill="none" stroke="#d41443" style="stroke: var(--color2, #d41443)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2.2857" d="M0 2.286h45.714M0 16h45.714M0 29.714h45.714"></path>
 </symbol>
@@ -29,6 +32,9 @@
 </symbol>
 <symbol id="icon-name" viewBox="0 0 32 32">
 <path d="M16 16c2.946 0 5.333-2.388 5.333-5.333s-2.388-5.333-5.333-5.333v0c-2.946 0-5.333 2.388-5.333 5.333s2.388 5.333 5.333 5.333v0zM16 18.667c-3.561 0-10.667 1.787-10.667 5.333v1.333c0 0.732 0.599 1.333 1.333 1.333h18.667c0.732 0 1.333-0.601 1.333-1.333v-1.333c0-3.547-7.108-5.333-10.667-5.333z"></path>
+</symbol>
+<symbol id="icon-Vector-1" viewBox="0 0 22 32">
+<path fill="none" stroke="#d41443" style="stroke: var(--color1, #d41443)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6.4" d="M4.544 3.2l13.702 12.8-13.702 12.8"></path>
 </symbol>
 </defs>
 </svg>
