@@ -1,3 +1,23 @@
 header {
   background-color: var(--product-pink-color);
 }
+
+.button-buy {
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // width: 209px;
+  // height: 44px;
+  // border-radius: 22px;
+  // background-color: var(--primary-white-color);
+
+  // @include font-set(null, 700, 1.31);
+  // color: var(--dark-pink-color);
+  // text-align: center;
+}
+
+span {
+  width: 5.26px;
+  height: 8px;
+  // border: 2px solid #d41443;
+}
