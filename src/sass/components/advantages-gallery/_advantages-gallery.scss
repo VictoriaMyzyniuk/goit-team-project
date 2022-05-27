@@ -12,13 +12,13 @@
   margin-bottom: 38px;
   display: inline-block;
   &:first-child::before {
-    content: url('images/mobile/mob-udder-bucket-1x.png');
+    content: url('/images/mobile/mob-udder-bucket-1x.png');
   }
   &:nth-child(2)::before {
-    content: url('images/mobile/mob-apple-bucket-1x.png');
+    content: url('/images/mobile/mob-apple-bucket-1x.png');
   }
   &:last-child::before {
-    content: url('images/mobile/mob-heart-1x.png');
+    content: url('/images/mobile/mob-heart-1x.png');
   }
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -75,14 +75,8 @@
   margin: 0;
 }
 
-// .gallery {
-//   // margin-left: auto;
-//   // margin-right: auto;
-//   max-width: 480px;
-//   height: 100%;
-//   background-color: aqua;
-//   background-image: url('/images/mobile/mob-gallery-1x.png');
-//   // background-repeat: no-repeat;
-//   // background-position: center;
-//   // background-size: cover;
-// }
+.gallery-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
