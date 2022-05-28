@@ -164,6 +164,22 @@ button {
   margin: 0 40px 32px 40px;
 }
 
+.about__product-dots {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.about__product-dots-decor {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--primary-white-color);
+}
+.about__product-dots-decor:not(:last-child) {
+  margin-right: 4px;
+}
+
 .about__product-list-btn {
   display: block;
   margin-left: auto;
@@ -172,10 +188,17 @@ button {
 
 .about__product-thumb {
   position: absolute;
+  left: 20px;
+  bottom: 30px;
   width: 280px;
   height: 280px;
-  left: 0;
-  bottom: 0%;
+}
+
+.about__product-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--product-pink-color);
 }
 
 .about {
