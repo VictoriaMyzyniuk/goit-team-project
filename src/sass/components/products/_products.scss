@@ -1,8 +1,12 @@
-.products {
-    padding-top: 60px;
-    padding-bottom: 60px;
+.about__product {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 148px;
 }
-.products__pre-title {
+
+.about__product-pre-title {
     font-family: 'Titan One';
     font-size: 18px;
     line-height: 1.16;
@@ -14,7 +18,7 @@
     margin-bottom: 15px;
 }
 
-.products__title {
+.about__product-title {
     font-family: 'Titan One';
     font-size: 34px;
     line-height: 1.14;
@@ -26,3 +30,72 @@
     margin-top: 0;
     margin-bottom: 8px;
 }
+
+.about__product-gallery {
+    margin-top: 0 auto;
+}
+
+.about__product-item {
+margin-bottom: 0;
+
+}
+
+.about__product-list {
+    position: relative;
+    background-color: var(--product-pink-color);
+    border-radius: 24px;
+    padding-bottom: 40px;
+}
+
+.about__product-name {
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+
+    padding: 160px 53px 32px 53px;
+    margin-top: 0;
+}
+
+.about__product-scroll-btn {
+    display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 32px;
+padding: 0;
+}
+
+.about__product-offer {
+font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 152%;
+    max-width: 206;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin: 0 40px 32px 40px;
+}
+
+.about__product-list-btn {
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.about__product-thumb {
+    position: absolute;
+    width: 280px;
+        height: 280px;
+left: 0;
+bottom: 0%;
+}
+
+
+
