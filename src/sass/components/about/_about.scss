@@ -154,11 +154,16 @@ p {
 .about-list__desc {
     
     width: 220px;
-        margin-bottom: 20px;
+            margin-top: 10px;
         font-weight: 500;
         font-size: 12px;
         line-height: 1.58;
     color: var(--text-gray-color);
+    &:first-child{
+        margin-top:0;
+    }
+
+    
 
 
 
@@ -181,6 +186,11 @@ p {
         
                 }
 }
+
+
+// .about-list__desc--span{
+// line-height: 32px;
+// }
 .about-btn {
     
         font-weight: 700;
