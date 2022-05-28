@@ -6,6 +6,7 @@ p {
     
     background: var(--howitsmade-bg-color);
 }
+
 .about-text {
     
     @extend %secondary-font;
@@ -34,14 +35,32 @@ p {
                  }
 
 }
-.about-list{
-    @media screen and (min-width: $tablet) {
-            display: flex;
-            flex-direction: column;
-                align-items: flex-end;
-        }
 
+.about{
+    @media screen and (max-width:767px){
+    background-image: url(..//images/mobile/mob-bcg-milk-1x.png);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: auto;
+    background-position: bottom 26% left;
+    @media screen and (min-width: 480px) and (max-width: 767px){
+        background-position: bottom 26% center;
+    }
 }
+}
+
+    // @media screen and (max-width:767px) {
+    //     @media screen and (min-device-pixel-ratio: 2),
+    //         (min-resolution:192dpi),
+    //         (min-resolution:2dppx) {
+    //             .about {
+    //                 background-image:
+    //                     url(..//images/mobile/mob-bcg-milk-2x.png);
+    //             }
+        
+    //         }
+    // }
+
 
 .about-name {
          @extend %secondary-font;
@@ -69,22 +88,16 @@ p {
         }
 }
 
-.about-svg{
-    
-    border: 2px solid #D41443;
-}
-
-
 
 .about-img{
     width: 100%;
 }
-
-
-
 .about-list__item {
-    margin-top: 40px;
+   
         margin-bottom: 40px;
+        @media screen and (max-width: $tablet) {
+            margin-top: 40px;
+        }
 }
 
 .about-list__item--another{
@@ -94,52 +107,23 @@ p {
     }
 
 }
-
-
-
-
-
-
 .about-picture {
-    @media screen and (max-width: $tablet){
+    @media screen and (min-width: 480px) and (max-width: 767px){
     display: flex;
     justify-content: center;}
     
 }
-
-
-.about-picture__another {
-    
-    @media screen and (min-width: 768px) and (max-width:1199px) {
-        display: none;}
-}
+.about-pozition{
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+            display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
 .about-picture__another{
     width: 100%;
-    position: absolute;
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .about-list__text {
     width: 220px;
        
@@ -149,18 +133,15 @@ p {
         line-height: 1.58;
     color: var(--primary-black-color);
     @media screen and (min-width: 321px) and (max-width:768px) {
-        width: 100%;
+        // width: 100%;
         
     }
-
-
     @media screen and (min-width: $tablet) {
         width: 334px;
         font-size: 14px;
             line-height: 1.78;
             
         }
-    
         @media screen and (min-width: $desktop) {
             width: 334px;
             margin-top: 72px;
@@ -170,25 +151,19 @@ p {
             
         }
 }
-
-
-
-
-
-
-
-
-
-
-
 .about-list__desc {
     
     width: 220px;
-        margin-bottom: 20px;
+            margin-top: 10px;
         font-weight: 500;
         font-size: 12px;
         line-height: 1.58;
     color: var(--text-gray-color);
+    &:first-child{
+        margin-top:0;
+    }
+
+    
 
 
 
@@ -207,24 +182,33 @@ p {
             line-height: 1.92;
         }
                 @media screen and (min-width: 321px) and (max-width:768px) {
-                    width: 100%;
+                    // width: 100%;
         
                 }
 }
 
 
+// .about-list__desc--span{
+// line-height: 32px;
+// }
 .about-btn {
-    font-weight: 700;
+    
+        font-weight: 700;
         font-size: 14px;
         line-height: 18px;
         margin-bottom: 40px;
-        display: flex;
-        align-items: center;
-        text-align: center;
+
         color: #D41443;
         width: 176px;
-            height: 44px;
-    background: #d6cccc;;
+        height: 44px;
+        background: var(--primary-white-color);
         border-radius: 22px;
         cursor: pointer;
+              
 }
+.about-svg {
+    margin-left: 13px;
+    --color1: var(--dark-pink-color);
+    
+}
+
