@@ -14,10 +14,13 @@
   --review-bg-color: #FAFAFA;
   --review-element-color: #E1E1E1;
   --icon-bg-color: #FEA5BB;
+  --review-bg-color: #fafafa;
+  --review-element-color: #e1e1e1;
+  --button-bg-hover-color: #ecebeb;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   --duration: 250ms;
 }
 
-$mobile: 320px;
+$mobile: 480px;
 $tablet: 768px;
 $desktop: 1200px;
