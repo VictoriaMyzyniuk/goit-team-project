@@ -1,33 +1,10 @@
 .swiper-article {
-  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 48px;
 }
-.container {
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 320px;
-  padding-left: 20px;
-  padding-right: 20px;
-  position: relative;
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
-.swiper {
-  width: 100%;
-}
-
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
   width: auto;
 
-  /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -49,7 +26,7 @@
 .swiper-slide__thumb {
   background-color: #fafafa;
   margin-bottom: 16px;
-  padding-top: 30px;
+  padding-top: 43px;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 17px;
@@ -62,19 +39,21 @@
   margin-bottom: 0;
   padding-left: 15px;
   padding-right: 8px;
-  padding-top: 16px;
   box-sizing: border-box;
 
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 2.55;
-  /* or 31px */
+  @include font-set(12px, 500, 2.55);
 
   text-align: center;
 
   color: #000000;
+  background-repeat: no-repeat;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 30px,
+    #e1e1e1 1px,
+    #e1e1e1 31px
+  );
 }
 .swiper-slide--text::after {
   display: block;
@@ -85,8 +64,8 @@
   background-image: url(../images/icons/quotes.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  top: 3px;
-  left: 3px;
+  top: -13px;
+  left: -12px;
   z-index: -2;
 }
 .swiper-slide--dots {
@@ -102,7 +81,7 @@
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background-color: red;
+  background-color: #c7133e;
 }
 .swiper-slide--dots li:not(:last-child) {
   margin-right: 10px;
@@ -118,6 +97,7 @@
 .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
+  background-color: #d9d9d9;
 }
 .swiper-pagination-bullet-active {
   background-image: url(../images/icons/house.svg);
