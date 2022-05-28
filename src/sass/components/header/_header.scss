@@ -46,9 +46,14 @@ header {
 
 .button-buy {
   width: 209px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0 20px 20px 20px;
+
+  transition: background-color var(--duration) var(--timing-function);
+}
+
+.button-buy:hover,
+.button-buy:focus {
+  background-color: var(--button-bg-hover-color);
 }
 
 .button__icon {
@@ -63,6 +68,18 @@ header {
   display: block;
   background-color: transparent;
   padding: 0;
+  color: currentColor;
+
+  transition: color var(--duration) var(--timing-function);
+}
+
+.menu-open-btn:hover,
+.menu-open-btn:focus {
+  --color2: var(--primary-white-color);
+}
+.menu-close-btn:hover,
+.menu-close-btn:focus {
+  --color1: var(--dark-pink-color);
 }
 
 .menu-close-btn {
@@ -72,6 +89,8 @@ header {
 .icon-menu,
 .icon-cross {
   color: currentColor;
+
+  transition: color var(--duration) var(--timing-function);
 }
 
 .menu-open-btn:hover .icon-menu,
@@ -91,7 +110,6 @@ header {
   padding: 12px 20px 12px 20px;
   border: solid var(--mobile-menu-border-color);
   border-width: 1px 0 0 0;
-  // border: 1px solid var(--mobile-menu-border-color);
 }
 .menu-nav__item:last-child {
   border: solid var(--mobile-menu-border-color);
@@ -101,4 +119,15 @@ header {
 .menu-nav__link {
   @include font-set(14px, 700, 1.29);
   color: var(--primary-white-color);
+
+  transition: color var(--duration) var(--timing-function);
+}
+
+.menu-nav__link:hover,
+.menu-nav__link:focus {
+  color: var(--dark-pink-color);
+}
+
+.menu-nav__link--current {
+  color: var(--dark-pink-color);
 }
