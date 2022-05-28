@@ -7,8 +7,6 @@ p {
     background: var(--howitsmade-bg-color);
 }
 
-
-
 .about-text {
     
     @extend %secondary-font;
@@ -37,14 +35,6 @@ p {
                  }
 
 }
-// .about-list{
-//     @media screen and (min-width: $tablet) {
-//             display: flex;
-//             flex-direction: column;
-//                 align-items: flex-start;
-//         }
-
-// }
 
 .about{
     @media screen and (max-width:767px){
@@ -70,8 +60,6 @@ p {
         
     //         }
     // }
-
-
 
 
 .about-name {
@@ -101,14 +89,9 @@ p {
 }
 
 
-
-
 .about-img{
     width: 100%;
 }
-
-
-
 .about-list__item {
    
         margin-bottom: 40px;
@@ -124,19 +107,12 @@ p {
     }
 
 }
-
-
-
-
-
-
 .about-picture {
     @media screen and (min-width: 480px) and (max-width: 767px){
     display: flex;
     justify-content: center;}
     
 }
-
 .about-pozition{
     @media screen and (min-width: 480px) and (max-width: 767px) {
             display: flex;
@@ -144,34 +120,10 @@ p {
                 align-items: center;
             }
         }
-
 .about-picture__another{
     width: 100%;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .about-list__text {
     width: 220px;
        
@@ -184,15 +136,12 @@ p {
         // width: 100%;
         
     }
-
-
     @media screen and (min-width: $tablet) {
         width: 334px;
         font-size: 14px;
             line-height: 1.78;
             
         }
-    
         @media screen and (min-width: $desktop) {
             width: 334px;
             margin-top: 72px;
@@ -202,17 +151,6 @@ p {
             
         }
 }
-
-
-
-
-
-
-
-
-
-
-
 .about-list__desc {
     
     width: 220px;
@@ -243,8 +181,6 @@ p {
         
                 }
 }
-
-
 .about-btn {
     
         font-weight: 700;
